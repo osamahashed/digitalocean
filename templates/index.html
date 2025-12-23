@@ -2,10 +2,8 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>بحث عملي عن منصة DigitalOcean</title>
+    <title>بحث  عن منصة DigitalOcean</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
     <style>
@@ -15,94 +13,51 @@
             background: #0b1120;
             color: #e5e7eb;
         }
-
         header {
             background: linear-gradient(135deg, #2563eb, #1e3a8a);
             padding: 60px 20px;
             text-align: center;
         }
-
-        header h1 {
-            font-size: 38px;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 18px;
-            opacity: 0.9;
-        }
-
         nav {
             background: #020617;
             padding: 14px;
             text-align: center;
             position: sticky;
             top: 0;
-            z-index: 999;
         }
-
         nav a {
             color: #93c5fd;
-            margin: 0 15px;
+            margin: 0 12px;
             text-decoration: none;
             font-weight: 600;
         }
-
-        nav a:hover {
-            color: #ffffff;
-        }
-
         section {
             padding: 60px 20px;
             max-width: 1200px;
             margin: auto;
         }
-
-        section h2 {
+        h2 {
             color: #60a5fa;
-            margin-bottom: 30px;
             text-align: center;
+            margin-bottom: 30px;
         }
-
         .cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 25px;
         }
-
         .card {
             background: #020617;
             border-radius: 16px;
             padding: 25px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-            transition: transform 0.3s;
+            line-height: 2;
         }
-
-        .card:hover {
-            transform: translateY(-6px);
-        }
-
-        .card h3 {
-            color: #93c5fd;
-            margin-bottom: 15px;
-        }
-
-        .card p, .card ul {
-            font-size: 15px;
-            line-height: 1.9;
-            color: #d1d5db;
-        }
-
-        .card ul {
-            padding-right: 20px;
-        }
-
         footer {
             background: #020617;
-            padding: 25px;
+            padding: 20px;
             text-align: center;
             color: #9ca3af;
-            font-size: 14px;
         }
     </style>
 </head>
@@ -110,160 +65,112 @@
 <body>
 
 <header>
-    <h1>بحث  عن منصة DigitalOcean</h1>
-    <p>إعداد الباحث: <strong>Osama Hashed</strong></p>
-    <!-- <p>Cloud Computing & DevOps</p> -->
+    <h1>بحث عملي عن منصة DigitalOcean</h1>
+    <p>إعداد : <strong>Osama Hashed</strong></p>
 </header>
 
 <nav>
     <a href="#intro">المقدمة</a>
-    <a href="#digitalocean">DigitalOcean</a>
+    <a href="#platform">المنصة</a>
     <a href="#services">الخدمات</a>
-    <a href="#agents">Agents</a>
-    <a href="#comparison">مقارنة</a>
+    <a href="#agents">AI Agents</a>
     <a href="#conclusion">الخلاصة</a>
 </nav>
 
-<!-- المقدمة -->
 <section id="intro">
-    <h2>مقدمة البحث</h2>
+    <h2>مقدمة</h2>
     <div class="cards">
         <div class="card">
-            <h3>هدف البحث</h3>
-            <p>
-                يهدف هذا البحث إلى دراسة منصة DigitalOcean كحل عملي
-                للحوسبة السحابية، مع تحليل إمكانياتها في استضافة
-                التطبيقات الحديثة وربطها بتقنيات الذكاء الاصطناعي.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>أهمية الموضوع</h3>
-            <p>
-                مع تزايد الاعتماد على الخدمات السحابية، أصبح من الضروري
-                فهم المنصات التي توفر توازنًا بين الأداء، التكلفة،
-                وسهولة الإدارة.
-            </p>
+            يهدف هذا البحث إلى تقديم دراسة عملية متكاملة حول استخدام منصة
+            DigitalOcean في مجال الحوسبة السحابية، مع التركيز على الجانب
+            التطبيقي وليس النظري فقط.  
+            يوضح المشروع كيفية نشر تطبيق ويب حقيقي باستخدام App Platform،
+            وربطه بمفاهيم DevOps مثل النشر التلقائي (CI/CD)،
+            بالإضافة إلى دمج تقنيات الذكاء الاصطناعي عبر AI Agents
+            لتحسين وظائف التطبيق وتجربة المستخدم.
         </div>
     </div>
 </section>
 
-<!-- DigitalOcean -->
-<section id="digitalocean">
-    <h2>ما هي منصة DigitalOcean؟</h2>
+<section id="platform">
+    <h2>منصة DigitalOcean</h2>
     <div class="cards">
         <div class="card">
-            <h3>تعريف المنصة</h3>
-            <p>
-                DigitalOcean هي منصة حوسبة سحابية تأسست عام 2011،
-                تستهدف المطورين والشركات الناشئة، وتتميز ببساطة
-                واجهتها وسرعة نشر الخدمات.
-            </p>
+            DigitalOcean هي منصة حوسبة سحابية موجهة بشكل أساسي للمطورين
+            والباحثين والشركات الناشئة.  
+            توفر المنصة بنية تحتية جاهزة لتشغيل التطبيقات دون التعقيد
+            الموجود في بعض المنصات السحابية الأخرى، مما يجعلها خيارًا
+            مناسبًا للتعلم الأكاديمي والتطبيق العملي.
         </div>
-
         <div class="card">
-            <h3>مميزات DigitalOcean</h3>
-            <ul>
-                <li>سهولة الاستخدام</li>
-                <li>تكلفة منخفضة مقارنة بالمنافسين</li>
-                <li>توثيق واضح ومباشر</li>
-                <li>دعم ممتاز لتطبيقات Python و Flask</li>
-            </ul>
+            تعتمد DigitalOcean على مفهوم البساطة مقابل الأداء، حيث
+            تقدم خدمات واضحة بأسعار ثابتة، مع توثيق رسمي قوي،
+            مما يساعد المطور على التركيز على بناء التطبيق
+            بدل الانشغال بإدارة الخوادم المعقدة.
         </div>
     </div>
 </section>
 
-<!-- الخدمات -->
 <section id="services">
     <h2>الخدمات الأساسية</h2>
     <div class="cards">
         <div class="card">
-            <h3>Droplets</h3>
-            <p>
-                خوادم افتراضية مرنة يمكن التحكم بها بالكامل،
-                تستخدم لاستضافة المواقع والتطبيقات.
-            </p>
+            <strong>Droplets:</strong><br>
+            خوادم افتراضية (Virtual Machines) تتيح للمستخدم
+            التحكم الكامل بنظام التشغيل والموارد،
+            وتُستخدم في الحالات التي تتطلب إعدادات مخصصة
+            أو تحكمًا عميقًا بالبنية التحتية.
         </div>
-
         <div class="card">
-            <h3>App Platform</h3>
-            <p>
-                خدمة نشر تلقائي للتطبيقات بدون الحاجة
-                لإدارة الخوادم يدويًا.
-            </p>
+            <strong>App Platform:</strong><br>
+            خدمة نشر تلقائي للتطبيقات تعتمد على Git،
+            حيث يتم ربط المستودع البرمجي وتشغيل التطبيق
+            دون الحاجة لإعداد السيرفر يدويًا،
+            وهي الخدمة المستخدمة في هذا المشروع.
         </div>
-
         <div class="card">
-            <h3>Managed Databases</h3>
-            <p>
-                قواعد بيانات مُدارة بالكامل مثل PostgreSQL و MySQL،
-                مع نسخ احتياطي تلقائي.
-            </p>
+            <strong>Managed Databases:</strong><br>
+            قواعد بيانات مُدارة بالكامل مثل PostgreSQL و MySQL،
+            توفر نسخًا احتياطيًا وتحديثات تلقائية،
+            وتُستخدم عادة في البيئات الإنتاجية الكبيرة.
         </div>
     </div>
 </section>
 
-<!-- Agents -->
 <section id="agents">
-    <h2>الذكاء الاصطناعي و Agents</h2>
+    <h2>AI Agents</h2>
     <div class="cards">
         <div class="card">
-            <h3>ما هو الـ Agent؟</h3>
-            <p>
-                الـ Agent هو برنامج ذكي قادر على تنفيذ مهام
-                تلقائية واتخاذ قرارات بناءً على البيانات.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>دور Agents مع DigitalOcean</h3>
-            <ul>
-                <li>نشر التطبيقات تلقائيًا</li>
-                <li>مراقبة أداء الخوادم</li>
-                <li>إعادة التشغيل عند الأعطال</li>
-                <li>تحسين استهلاك الموارد</li>
-            </ul>
+            تم دمج مفهوم AI Agents في هذا المشروع
+            كجزء من الذكاء الاصطناعي التطبيقي،
+            حيث يعمل الـ Agent كنظام ذكي مستقل
+            يتم استدعاؤه عبر API لتحليل المدخلات النصية
+            وتقديم اقتراحات ذكية.  
+            لا يقوم الـ Agent بإدارة الخوادم،
+            بل يركز على تحسين منطق التطبيق،
+            مثل تحليل المحتوى، التصنيف،
+            ودعم اتخاذ القرار داخل النظام.
         </div>
     </div>
 </section>
 
-<!-- مقارنة -->
-<section id="comparison">
-    <h2>مقارنة مع AWS و Azure</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>DigitalOcean</h3>
-            <p>بسيطة، مناسبة للمشاريع التعليمية والمتوسطة.</p>
-        </div>
-
-        <div class="card">
-            <h3>AWS</h3>
-            <p>قوية جدًا لكنها معقدة وتحتاج خبرة عالية.</p>
-        </div>
-
-        <div class="card">
-            <h3>Azure</h3>
-            <p>مناسبة لبيئات الشركات الكبرى.</p>
-        </div>
-    </div>
-</section>
-
-<!-- الخلاصة -->
 <section id="conclusion">
     <h2>الخلاصة</h2>
     <div class="cards">
         <div class="card">
-            <p>
-                توصل البحث إلى أن DigitalOcean تمثل خيارًا مثاليًا
-                للباحثين والمطورين الراغبين في تنفيذ مشاريع عملية
-                وربطها بتقنيات AI Agents بسهولة وكفاءة.
-            </p>
+            يثبت هذا البحث أن منصة DigitalOcean
+            تمثل بيئة مناسبة لتحويل المفاهيم النظرية
+            في الحوسبة السحابية والذكاء الاصطناعي
+            إلى تطبيق عملي حقيقي.  
+            كما يوضح المشروع إمكانية الدمج بين
+            Cloud Computing و AI Agents
+            في نظام واحد يعمل بشكل مستقر وقابل للتوسع.
         </div>
     </div>
 </section>
 
 <footer>
-    © 2025 | Practical Research on DigitalOcean — Osama Hashed
+    © 2025 — DigitalOcean 
 </footer>
 
 </body>
